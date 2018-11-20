@@ -866,6 +866,7 @@ app
   };
 }])
 .controller('RestoreController', ['$scope', '$location', 'Storage', 'SweetAlert', 'Lang', function($scope, $location, Storage, SweetAlert, Lang) {
+  console.log(`RestoreController() called!`)
   $scope.type = 'ico';
   $scope.seed = '';
   $scope.passphrase = '';
